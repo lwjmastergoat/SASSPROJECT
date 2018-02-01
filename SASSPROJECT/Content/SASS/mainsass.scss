@@ -3,5 +3,179 @@
 @import "Footer.scss";
 
 body {
-
 }
+
+.indhold {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: $headerhrcolor;
+
+    p {
+        margin: 0;
+    }
+}
+
+
+.container {
+    height: 450px;
+
+    div {
+        margin-top: 70px;
+        margin-left: 55px;
+        width: 250px;
+        float: left;
+        /*display: inline-block;*/
+        border: 1px solid $headerfontcolor;
+
+        img {
+            width: 250px;
+        }
+
+
+
+        div {
+
+            margin: 0;
+            width: 250px;
+            background-color: $headercolor;
+            height: 170px;
+
+            h2 {
+                color: $headerfontcolor;
+                padding-left: 5px;
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+                padding-left: 5px;
+                color: $headerhrcolor;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+
+.aebning {
+    margin: 0px;
+    padding:0px;
+    position: absolute;
+    
+}
+
+.sendemail {
+    width: 350px;
+    position: absolute;
+    left: 1160px;
+}
+
+
+.adresse {
+    width: 200px;
+}
+
+.concon {
+    height: 500px;
+
+    h1 {
+        padding-top: 30px;
+        padding-left: 50px;
+        margin-top: 0;
+        padding-bottom: 30px;
+    }
+
+    div {
+        display: inline-block;
+        margin-left: 80px;
+        border: 1px solid #808080;
+
+
+        p {
+            padding: 20px;
+        }
+
+        div {
+            width: 100%;
+            margin: 0;
+            background-color: #808080;
+
+            p {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+            }
+        }
+
+        label {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 20px 10px;
+            margin-left: 10px;
+        }
+
+        input {
+            margin-top: 10px;
+            width: 230px;
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        textarea {
+            margin-top: 10px;
+            margin-left: 20px;
+            width: 300px;
+            height: 60px;
+        }
+
+        button {
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ff6a00;
+            background: black;
+            color: #ff6a00;
+        }
+    }
+}
+
+.label1 {
+    margin-right: 10px;
+}
+
+.label3 {
+    margin-right: 5px;
+}
+
+
+.omoscontainer {
+
+    display: inline-block;
+    width: 530px;
+    h1 {
+        margin-top:0;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    p{
+        padding-left: 70px;
+    }
+}
+
+.imgcontainer {
+    border: 1px solid $headerfontcolor;
+    width: 480px;
+    margin: 0;
+    float: right;
+    margin-top: 80px;
+    margin-right: 100px;
+
+    img {
+        display: inline-block;
+        width: 500px;
+        height: 350px;
+    }
+}
+
+.concon1 {
+    height: 550px;
+    }

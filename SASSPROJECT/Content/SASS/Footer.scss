@@ -1,2 +1,25 @@
-﻿body {
+﻿footer {
+    clear: both;
+    width: 1280px;
+    margin: 0 auto;
+    background-color: $navcolor;
+    height: 42px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    hr {
+        color: $headerfontcolor;
+        border: 1px solid $headerfontcolor;
+        clear: both;
+        width: 1278px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    p {
+        padding: 0;
+        padding-left: 20px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
 }
