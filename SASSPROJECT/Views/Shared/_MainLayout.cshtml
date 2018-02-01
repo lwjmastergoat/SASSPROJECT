@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/SASS/mainsass.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+
+        <header>
+            <hr />
+            <hr class="hr1" />
+            <h1> NIKON <span>experten</span></h1>
+        </header>
+    </div>
+
+    <nav>
+        <div>
+            <ul>
+                <li>
+                    <a>Hjem</a>
+                    <a>Produkter</a>
+                    <a>Om os</a>
+                    <a>Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

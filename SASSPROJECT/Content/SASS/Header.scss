@@ -1,0 +1,85 @@
+﻿@import "Shared.scss";
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+
+    header {
+        position: relative;
+        background-color: $headercolor;
+        width: 100%;
+        text-align: center;
+        height: 145px;
+
+        hr {
+            position: absolute;
+            width: 1279px;
+            top: 65px;
+        }
+
+        .hr1 {
+            position: absolute;
+            width: 1279px;
+            top: 55px;
+            z-index: 250;
+        }
+
+        h1 {
+            position: absolute;
+            color: $headerfontcolor;
+            background-color: $headercolor;
+            border: 1px solid $headerhrcolor;
+            display: inline-block;
+            padding: 20px 20px;
+            font-size: 40px;
+            z-index: 299;
+            left: 33.5%;
+
+            span {
+                color: $headerhrcolor;
+            }
+        }
+    }
+
+    
+}
+nav {
+        clear:both;
+        width: 1280px;
+        margin: 0 auto;
+        div {
+            border: 1px solid $headerfontcolor;
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: $navcolor;
+
+
+                li {
+                    float: left;
+                    margin-left: 360px;
+                    
+
+                    a {
+                        
+                        font-weight: bold;
+                        display: inline-block;
+                        color: $navfont;
+                        text-align: center;
+                        padding: 14px 35px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }

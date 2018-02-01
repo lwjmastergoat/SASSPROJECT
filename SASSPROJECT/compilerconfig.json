@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "Content/SASS/Header.css",
+    "inputFile": "Content/SASS/Header.scss"
+  },
+  {
+    "outputFile": "Content/SASS/mainsass.css",
+    "inputFile": "Content/SASS/mainsass.scss"
+  }
+]
